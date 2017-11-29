@@ -85,9 +85,24 @@
       git merge dev
 
 
+四、将vue build之后的dist文件夹提交到 gh-pages分支
+  
+  1. 在develop分支下创建临时本地分支develop-pages
+    
+	git checkout -b develop-pages
+
+  2. 在.gitignore文件中解除对dist文件夹的忽略
+
+  3. build项目
+   
+  4. 提交暂存
+
+  5. 将vue build之后的dist文件夹提交到 gh-pages分支
+
+    git subtree push --prefix dist origin gh-pages
 
 
-
+  6. 删除本地分支 develop-pages
 
 
 
