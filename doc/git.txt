@@ -71,9 +71,9 @@
 
 三、 分支操作
 
-   1. 添加本地分支
+   1. 在master分支基础上添加本地分支
       
-      git checkout -b dev
+      git checkout -b dev maseter
       
    2、切换 分支
      
@@ -83,7 +83,10 @@
     
       git checkout maseter
       git merge dev
-
+   
+   4. 远程分支不存在并且是第一次将本地分支推送到远程分支 
+    
+	 git push --set-upstream origin dev
 
 四、将vue build之后的dist文件夹提交到远程gh-pages分支
   
