@@ -87,6 +87,10 @@
    4. 远程分支不存在并且是第一次将本地分支推送到远程分支 
     
 	 git push --set-upstream origin dev
+	 
+   5. 删除远程分支
+      $ git push origin 【空格】【冒号】【你的分支名字】
+      
 
 四、将vue build之后的dist文件夹提交到远程gh-pages分支
   
