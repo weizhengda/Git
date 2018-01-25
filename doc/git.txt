@@ -84,12 +84,13 @@
       git checkout maseter
       git merge dev
       
-   4. 提送合并
+   4. 推送合并
+   
       git push --set-upstream origin master
    
    5. 远程分支不存在并且是第一次将本地分支推送到远程分支 
     
-	 git push --set-upstream origin dev
+      git push --set-upstream origin dev
 	 
    6. 删除远程分支
       $ git push origin 【空格】【冒号】【你的分支名字】
